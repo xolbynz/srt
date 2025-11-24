@@ -24,9 +24,14 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(options=chrome_options)
 
 import yaml
+##  config 만드시옹
+try:
+    with open(r'config.yaml', encoding='utf-8') as config_file:
+        config = yaml.safe_load(config_file)
+except Exception as e:
+    print(f"config.yaml 파일을 찾을 수 없습니다: {e}")
+    exit(1)
 
-with open(r'config.yaml', encoding='utf-8') as config_file:
-    config = yaml.safe_load(config_file)
 
 id = config['id']
 password = config['password']
