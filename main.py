@@ -23,16 +23,20 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 # driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options=chrome_options)
 driver = webdriver.Chrome(options=chrome_options)
 
-id="1892761406"
-password="dnruf1006~!"
-kakao_phone_number = "01048425162"
-# 생년월일
-min_time = "14:00"
-max_time = "17:00"
-target_date = "2025.11.28"  # 2025.12.03 이렇게 해야함
-start_station = "수서"
-end_station = "광주송정"
-kakao_birth_date = "941122"
+import yaml
+
+with open(r'C:\Users\sbkwon\works\srt\config.yaml', encoding='utf-8') as config_file:
+    config = yaml.safe_load(config_file)
+
+id = config['id']
+password = config['password']
+kakao_phone_number = config['kakao_phone_number']
+min_time = config['min_time']
+max_time = config['max_time']
+target_date = config['target_date']
+start_station = config['start_station']
+end_station = config['end_station']
+kakao_birth_date = config['kakao_birth_date']
 refresh_time = 120
 
 try:
