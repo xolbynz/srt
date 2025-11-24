@@ -38,7 +38,7 @@ start_station = config['start_station']
 end_station = config['end_station']
 kakao_birth_date = config['kakao_birth_date']
 refresh_time = 120
-
+###
 try:
     # Open target website
     driver.get('https://etk.srail.kr/cmc/01/selectLoginForm.do?pageId=TK0701000000')
