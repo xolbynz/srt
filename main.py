@@ -25,7 +25,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 import yaml
 
-with open(r'C:\Users\sbkwon\works\srt\config.yaml', encoding='utf-8') as config_file:
+with open(r'config.yaml', encoding='utf-8') as config_file:
     config = yaml.safe_load(config_file)
 
 id = config['id']
