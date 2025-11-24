@@ -1,7 +1,9 @@
+### config.yaml 만들어
+```
 id: "0000"
 password: ""
 kakao_phone_number: ""
-# 생년월일
+
 min_time: "14:00"
 max_time: "17:00"
 target_date: "2025.12.03"  
@@ -9,3 +11,4 @@ start_station: "수서"
 end_station: "광주송정"
 kakao_birth_date: "0000"
 refresh_time: 120
+```
