@@ -1,0 +1,59 @@
+2025-12-22 18:39:17,795 [INFO] === SRT Macro Started ===
+2025-12-22 18:39:17,795 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-22 18:39:17,795 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-22 18:39:25,490 [INFO] === SRT Macro Started ===
+2025-12-22 18:39:25,491 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-22 18:39:25,491 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-22 18:41:29,588 [INFO] === SRT Macro Started ===
+2025-12-22 18:41:29,589 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-22 18:41:29,589 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-22 18:42:12,065 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-22 18:42:15,824 [ERROR] 치명 오류 발생
+Traceback (most recent call last):
+  File "srt_macro.py", line 196, in main_bot
+  File "selenium\webdriver\remote\webelement.py", line 114, in click
+  File "selenium\webdriver\remote\webelement.py", line 508, in _execute
+  File "selenium\webdriver\remote\webdriver.py", line 432, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type="submit" value="확인" class="submit btn_pastel2 loginSubmit" style=""> is not clickable at point (605, 549). Other element would receive the click: <ul style="height: 450px; display: block;">...</ul>
+  (Session info: chrome=143.0.7499.147); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525919e8
+	0x7ff75258f40f
+	0x7ff75258c417
+	0x7ff75258b338
+	0x7ff75257ce7f
+	0x7ff7525b1fda
+	0x7ff75257c746
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-22 18:44:28,618 [INFO] === SRT Macro Started ===
+2025-12-22 18:44:28,618 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-22 18:44:28,618 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-22 18:45:11,432 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-22 18:45:17,248 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-22 18:45:17,309 [INFO] 출발역 '광주송정' 선택됨
+2025-12-22 18:45:17,357 [INFO] 도착역 '수서' 선택됨
+2025-12-22 18:45:17,395 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-22 18:45:17,447 [INFO] 출발시각 옵션 '14시 이후' 선택됨
+2025-12-22 18:45:17,534 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-22 18:45:19,549 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-22 18:45:20,800 [INFO] 예약 없음. 9s 후 재조회
+2025-12-22 18:45:30,971 [INFO] 예약 없음. 11s 후 재조회
+2025-12-22 18:45:43,138 [INFO] 예약 없음. 5s 후 재조회

@@ -108,9 +108,9 @@ try:
             opt_h = int(value[:2])
             opt_m = int(value[2:4])
             opt_total_minutes = opt_h * 60 + opt_m
-            # 옵션이 min_time보다 크거나 같고 가장 작은 값을 선택
-            if opt_total_minutes >= min_total_minutes:
-                diff = opt_total_minutes - min_total_minutes
+            # 옵션이 min_time보다 작거나 같고 가장 큰 값을 선택
+            if opt_total_minutes <= min_total_minutes:
+                diff = min_total_minutes - opt_total_minutes
                 if closest_diff is None or diff < closest_diff:
                     closest_option = option
                     closest_diff = diff
@@ -126,16 +126,48 @@ try:
         print(f"[{now_str()}] 출발시각 옵션 '{closest_option.text}' 선택됨")
     else:
         print(f"[{now_str()}] 출발시각 옵션을 찾을 수 없습니다.")
-    simple_search_span = driver.find_element(By.XPATH, "//span[text()='간편조회하기']")
+    driver.maximize_window()
+    simple_search_span = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, '//*[@id="search-form"]/fieldset/div/div/button[2]'))
+    )
     simple_search_span.click()
     print(f"[{now_str()}] '간편조회하기' 버튼 클릭 완료")
+    time.sleep(2)
+    while True:
+        try:
+            netfunnel_top = driver.find_element(By.CSS_SELECTOR, "#NetFunnel_Skin_Top")
+            if netfunnel_top.is_displayed():
+                print(f"[{now_str()}] 접속 대기창이 떠 있습니다. 1초 대기...")
+                try:
+                    netfunnel_loading_count = driver.find_element(By.ID, "NetFunnel_Loading_Popup_Count")
+                    popup_text = netfunnel_loading_count.text
+                    # 예: popup_text == "190 명"에서 숫자만 추출해서 출력
+                    import re
+                    match = re.search(r'\d+', popup_text)
+                    if match:
+                        count = match.group()
+                        print(f"[{now_str()}] 현재 접속속 대기 인원: {count}명")
+                    else:
+                        print(f"[{now_str()}] 접속 대기 인원 파싱 실패: {popup_text}")
+                except Exception as popup_e:
+                    print(f"[{now_str()}] NetFunnel_Loading_Popup_Count 엘리먼트를 찾을 수 없습니다: {popup_e}")
+                time.sleep(1)
+                continue
+            else:
+                print(f"[{now_str()}] NetFunnel 대기창이 있지만 비활성화 상태입니다. 1초 대기...")
+                time.sleep(1)
+                continue
+        except Exception:
+            print(f"[{now_str()}] NetFunnel 대기창(#NetFunnel_Skin_Top)이 나타나지 않았습니다. 계속 진행합니다.")
+            break
 
     
-    time.sleep(wait_sec)
-    # tbody element for the result rows
+    wait = WebDriverWait(driver, 100000)
     tbody_selector = "#result-form > fieldset > div.tbl_wrap.th_thead > table > tbody"
-    tbody = driver.find_element(By.CSS_SELECTOR, tbody_selector)
-    rows = tbody.find_elements(By.TAG_NAME, "tr")
+    # tbody가 나타날 때까지 대기
+    tbody = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, tbody_selector)))
+    # tr 행들이 나타날 때까지 대기
+    rows = wait.until(lambda d: tbody.find_elements(By.TAG_NAME, "tr") and len(tbody.find_elements(By.TAG_NAME, "tr")) > 0 and tbody.find_elements(By.TAG_NAME, "tr"))
     # 예약이 될때까지 계속 새로고침 하면서 반복
     # 현재 페이지 주소값 저장 (현재 URL 얻기)
 
@@ -394,6 +426,38 @@ try:
             # 필요하면 조금만 더 올리거나 내릴 수도 있음
             # driver.execute_script("window.scrollBy(0, -50);")  # 위로 50px
             # driver.execute_script("window.scrollBy(0, 50);")   # 아래로 50px
+            # '#NetFunnel_Skin_Top' 이 떠있는지(존재하는지) 체크
+            # NetFunnel 대기창이 있으면 사라질 때까지 1초마다 체크
+            while True:
+                try:
+                    netfunnel_top = driver.find_element(By.CSS_SELECTOR, "#NetFunnel_Skin_Top")
+                    if netfunnel_top.is_displayed():
+                        print(f"[{now_str()}] 접속 대기창이 떠 있습니다. 1초 대기...")
+                        try:
+                            netfunnel_loading_count = driver.find_element(By.ID, "NetFunnel_Loading_Popup_Count")
+                            popup_text = netfunnel_loading_count.text
+                            # 예: popup_text == "190 명"에서 숫자만 추출해서 출력
+                            import re
+                            match = re.search(r'\d+', popup_text)
+                            if match:
+                                count = match.group()
+                                print(f"[{now_str()}] 현재 접속속 대기 인원: {count}명")
+                            else:
+                                print(f"[{now_str()}] 접속 대기 인원 파싱 실패: {popup_text}")
+                        except Exception as popup_e:
+                            print(f"[{now_str()}] NetFunnel_Loading_Popup_Count 엘리먼트를 찾을 수 없습니다: {popup_e}")
+                        time.sleep(1)
+                        continue
+                    else:
+                        print(f"[{now_str()}] NetFunnel 대기창이 있지만 비활성화 상태입니다. 1초 대기...")
+                        time.sleep(1)
+                        continue
+                except Exception:
+                    print(f"[{now_str()}] NetFunnel 대기창(#NetFunnel_Skin_Top)이 나타나지 않았습니다. 계속 진행합니다.")
+                    break
+
+
+
 
             try:
                 # 2. 일반 클릭 시도
