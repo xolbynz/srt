@@ -84,6 +84,7 @@ class SRTMacroApp:
 
         # Layout
         row = 0
+        tk.Label(self.window, text="오타 나면 안 됨고 주의해서 입력해주세요. 예) 를 잘 봐주세요").grid(row=row, column=0, columnspan=2, sticky="w"); row += 1
         tk.Label(self.window, text="ID:").grid(row=row, column=0, sticky="w")
         tk.Entry(self.window, textvariable=self.id_var).grid(row=row, column=1); row += 1
 
