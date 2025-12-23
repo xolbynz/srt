@@ -1,59 +1,3793 @@
-2025-12-22 18:39:17,795 [INFO] === SRT Macro Started ===
-2025-12-22 18:39:17,795 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
-2025-12-22 18:39:17,795 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
-2025-12-22 18:39:25,490 [INFO] === SRT Macro Started ===
-2025-12-22 18:39:25,491 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
-2025-12-22 18:39:25,491 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
-2025-12-22 18:41:29,588 [INFO] === SRT Macro Started ===
-2025-12-22 18:41:29,589 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
-2025-12-22 18:41:29,589 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
-2025-12-22 18:42:12,065 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
-2025-12-22 18:42:15,824 [ERROR] 치명 오류 발생
-Traceback (most recent call last):
-  File "srt_macro.py", line 196, in main_bot
-  File "selenium\webdriver\remote\webelement.py", line 114, in click
-  File "selenium\webdriver\remote\webelement.py", line 508, in _execute
-  File "selenium\webdriver\remote\webdriver.py", line 432, in execute
-  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type="submit" value="확인" class="submit btn_pastel2 loginSubmit" style=""> is not clickable at point (605, 549). Other element would receive the click: <ul style="height: 450px; display: block;">...</ul>
-  (Session info: chrome=143.0.7499.147); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+2025-12-23 15:54:19,904 [INFO] === SRT Macro Started ===
+2025-12-23 15:54:19,904 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 15:54:19,906 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 15:54:57,487 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-23 15:55:03,325 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-23 15:55:03,547 [INFO] 출발역 '광주송정' 선택됨
+2025-12-23 15:55:03,578 [INFO] 도착역 '수서' 선택됨
+2025-12-23 15:55:03,624 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-23 15:55:03,699 [INFO] 출발시각 옵션 '14시 이후' 선택됨
+2025-12-23 15:55:03,833 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-23 15:55:05,843 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-23 15:55:07,058 [INFO] 예약 없음. 9s 후 재조회
+2025-12-23 15:55:17,475 [INFO] 예약 없음. 11s 후 재조회
+2025-12-23 15:55:29,767 [INFO] 예약 없음. 5s 후 재조회
+2025-12-23 15:55:35,992 [INFO] 예약 없음. 13s 후 재조회
+2025-12-23 15:55:50,432 [INFO] 예약 없음. 6s 후 재조회
+2025-12-23 15:55:57,656 [INFO] 예약 없음. 12s 후 재조회
+2025-12-23 15:56:10,933 [INFO] 예약 없음. 11s 후 재조회
+2025-12-23 15:56:18,559 [INFO] === SRT Macro Started ===
+2025-12-23 15:56:18,559 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 15:56:18,560 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 15:56:23,237 [INFO] 예약 없음. 15s 후 재조회
+2025-12-23 15:56:38,482 [INFO] 재조회 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
 Stacktrace:
 Symbols not available. Dumping unresolved backtrace:
 	0x7ff7527588e5
 	0x7ff752758940
-	0x7ff75253165d
-	0x7ff7525919e8
-	0x7ff75258f40f
-	0x7ff75258c417
-	0x7ff75258b338
-	0x7ff75257ce7f
-	0x7ff7525b1fda
-	0x7ff75257c746
-	0x7ff7525dac97
-	0x7ff75257ac29
-	0x7ff75257ba93
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
 	0x7ff752a70640
 	0x7ff752a6af80
 	0x7ff752a896e6
 	0x7ff752775de4
 	0x7ff75277ed8c
-	0x7ff752762004
-	0x7ff7527621b5
-	0x7ff752747ee2
+	0x7ff7524f9cb8
+	0x7ff752bcf008
 	0x7ffaa209e8d7
 	0x7ffaa312c53c
 
-2025-12-22 18:44:28,618 [INFO] === SRT Macro Started ===
-2025-12-22 18:44:28,618 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
-2025-12-22 18:44:28,618 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
-2025-12-22 18:45:11,432 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
-2025-12-22 18:45:17,248 [INFO] 현재 주소값: https://etk.srail.kr/main.do
-2025-12-22 18:45:17,309 [INFO] 출발역 '광주송정' 선택됨
-2025-12-22 18:45:17,357 [INFO] 도착역 '수서' 선택됨
-2025-12-22 18:45:17,395 [INFO] 출발일자 2025.12.26로 변경 완료
-2025-12-22 18:45:17,447 [INFO] 출발시각 옵션 '14시 이후' 선택됨
-2025-12-22 18:45:17,534 [INFO] '간편조회하기' 버튼 클릭 완료
-2025-12-22 18:45:19,549 [INFO] NetFunnel 대기창 없음. 진행
-2025-12-22 18:45:20,800 [INFO] 예약 없음. 9s 후 재조회
-2025-12-22 18:45:30,971 [INFO] 예약 없음. 11s 후 재조회
-2025-12-22 18:45:43,138 [INFO] 예약 없음. 5s 후 재조회
+2025-12-23 15:56:39,486 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:39,489 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:40,492 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:40,493 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:41,497 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:41,499 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:42,501 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:42,502 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:43,504 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:43,505 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:44,509 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:44,512 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:45,516 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:45,517 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:46,519 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:46,520 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:47,524 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:47,527 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:48,532 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:48,534 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:49,537 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:49,540 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:50,543 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:50,547 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:51,550 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:51,552 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:52,554 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:52,556 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:53,559 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:53,562 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:54,564 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:54,566 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:55,568 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:55,569 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:56,571 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:56,573 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:57,575 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:57,577 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:58,580 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:58,583 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:59,586 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:56:59,587 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:00,588 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:00,590 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:01,593 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:01,596 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:02,599 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:02,603 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:03,606 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:03,608 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:04,612 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:04,616 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:05,619 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:05,622 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:06,624 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:06,625 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:07,628 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:07,631 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:08,635 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:08,638 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:09,641 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:09,643 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:10,646 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:10,649 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:11,651 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:11,652 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:12,655 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:12,657 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:13,658 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:13,659 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:14,660 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:14,661 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:15,664 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:15,667 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:16,668 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:16,669 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:17,671 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:17,672 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:18,676 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:18,678 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:19,680 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:19,683 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:20,685 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:20,687 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:20,702 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-23 15:57:21,689 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:21,690 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:22,691 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:22,692 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:23,693 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:23,694 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:24,696 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:24,698 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:25,701 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:25,702 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:26,497 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-23 15:57:26,565 [INFO] 출발역 '광주송정' 선택됨
+2025-12-23 15:57:26,594 [INFO] 도착역 '수서' 선택됨
+2025-12-23 15:57:26,653 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-23 15:57:26,704 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:26,705 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:26,710 [INFO] 출발시각 옵션 '22시 이후' 선택됨
+2025-12-23 15:57:26,812 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-23 15:57:27,707 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:27,708 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:28,709 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:28,710 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:28,822 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-23 15:57:29,713 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:29,714 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:29,935 [INFO] 예약하기 클릭 성공
+2025-12-23 15:57:30,715 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:30,717 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:31,718 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:31,719 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:31,946 [INFO] 결제하기 클릭
+2025-12-23 15:57:32,039 [INFO] 결제수단 탭(chTab2) 클릭
+2025-12-23 15:57:32,720 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:32,721 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:33,192 [INFO] 카카오페이 선택
+2025-12-23 15:57:33,274 [INFO] requestIssue2 클릭
+2025-12-23 15:57:33,722 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:33,723 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:33,803 [INFO] 결제 팝업 창으로 전환
+2025-12-23 15:57:33,886 [INFO] 카톡결제 탭 클릭
+2025-12-23 15:57:34,725 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:34,727 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:35,729 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:35,732 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:36,059 [INFO] 결제요청 클릭
+2025-12-23 15:57:36,734 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:36,736 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:37,738 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:37,740 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:38,742 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:38,743 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:39,745 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:39,747 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:40,749 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:40,751 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:41,752 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:41,754 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:42,756 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:42,758 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:43,760 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:43,761 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:44,086 [INFO] Flow finished.
+2025-12-23 15:57:44,765 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:44,767 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:45,773 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:45,774 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:46,777 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:46,778 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:47,782 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:47,785 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:48,787 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:48,788 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:49,791 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:49,794 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:50,797 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:50,799 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:51,801 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:51,802 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:52,804 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:52,806 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:53,808 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:53,810 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:54,815 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:54,818 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:55,819 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:55,821 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:56,823 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:56,824 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:57,827 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:57,831 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:58,833 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:58,833 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:59,835 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:57:59,836 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:00,838 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:00,840 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:01,842 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:01,843 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:02,844 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:02,845 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:03,847 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:03,848 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:04,850 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:04,851 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:05,853 [INFO] 결과 테이블 로딩 예외: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 15:58:05,854 [INFO] 재조회 클릭 실패: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff752531465
+	0x7ff752579d83
+	0x7ff7525b1ee2
+	0x7ff7525ac500
+	0x7ff7525ab6f0
+	0x7ff7524fb325
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff7524f9cb8
+	0x7ff752bcf008
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:08:27,339 [INFO] === SRT Macro Started ===
+2025-12-23 16:08:27,340 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 16:08:27,340 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 16:09:03,901 [INFO] === SRT Macro Started ===
+2025-12-23 16:09:03,901 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 16:09:03,901 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 16:09:41,000 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-23 16:09:47,220 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-23 16:09:47,462 [INFO] 출발역 '광주송정' 선택됨
+2025-12-23 16:09:47,615 [INFO] 도착역 '수서' 선택됨
+2025-12-23 16:09:47,735 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-23 16:09:47,794 [INFO] 출발시각 옵션 '22시 이후' 선택됨
+2025-12-23 16:09:47,869 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-23 16:09:49,881 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-23 16:09:51,019 [INFO] 예약하기 클릭 성공
+2025-12-23 16:09:52,327 [INFO] 결제하기 클릭
+2025-12-23 16:09:52,427 [INFO] 결제수단 탭(chTab2) 클릭
+2025-12-23 16:09:53,537 [INFO] 카카오페이 선택
+2025-12-23 16:09:53,581 [INFO] requestIssue2 클릭
+2025-12-23 16:09:54,101 [INFO] 결제 팝업 창으로 전환
+2025-12-23 16:09:54,662 [INFO] 카톡결제 탭 클릭
+2025-12-23 16:09:56,826 [INFO] 결제요청 클릭
+2025-12-23 16:10:02,403 [INFO] Flow finished.
+2025-12-23 16:12:26,371 [INFO] === SRT Macro Started ===
+2025-12-23 16:12:26,371 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 16:12:26,372 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 16:13:34,475 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-23 16:13:40,614 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-23 16:13:40,826 [INFO] 출발역 '광주송정' 선택됨
+2025-12-23 16:13:40,894 [INFO] 도착역 '수서' 선택됨
+2025-12-23 16:13:40,960 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-23 16:13:41,038 [INFO] 출발시각 옵션 '22시 이후' 선택됨
+2025-12-23 16:13:41,156 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-23 16:13:43,168 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-23 16:13:44,303 [INFO] 예약하기 클릭 성공
+2025-12-23 16:13:45,687 [INFO] 결제하기 클릭
+2025-12-23 16:13:45,794 [INFO] 결제수단 탭(chTab2) 클릭
+2025-12-23 16:13:46,899 [INFO] 카카오페이 선택
+2025-12-23 16:13:46,966 [INFO] requestIssue2 클릭
+2025-12-23 16:13:47,477 [INFO] 결제 팝업 창으로 전환
+2025-12-23 16:13:48,259 [INFO] 카톡결제 탭 클릭
+2025-12-23 16:13:50,406 [INFO] 결제요청 클릭
+2025-12-23 16:15:55,238 [INFO] Flow finished.
+2025-12-23 16:16:00,476 [INFO] === SRT Macro Started ===
+2025-12-23 16:16:00,477 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 16:16:00,477 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 16:16:29,035 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-23 16:16:34,913 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-23 16:16:35,217 [INFO] 출발역 '광주송정' 선택됨
+2025-12-23 16:16:35,293 [INFO] 도착역 '수서' 선택됨
+2025-12-23 16:16:35,361 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-23 16:16:35,446 [INFO] 출발시각 옵션 '22시 이후' 선택됨
+2025-12-23 16:16:35,562 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-23 16:16:37,583 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-23 16:16:38,821 [INFO] 예약하기 클릭 성공
+2025-12-23 16:16:39,955 [INFO] 결제하기 클릭
+2025-12-23 16:16:40,387 [INFO] 결제수단 탭(chTab2) 클릭
+2025-12-23 16:16:41,530 [INFO] 카카오페이 선택
+2025-12-23 16:16:41,619 [INFO] requestIssue2 클릭
+2025-12-23 16:16:42,129 [INFO] 결제 팝업 창으로 전환
+2025-12-23 16:16:42,917 [INFO] 카톡결제 탭 클릭
+2025-12-23 16:16:45,271 [INFO] 결제요청 클릭
+2025-12-23 16:16:53,771 [INFO] Flow finished.
+2025-12-23 16:17:26,052 [INFO] === SRT Macro Started ===
+2025-12-23 16:17:26,053 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 16:17:26,053 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 16:18:05,743 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-23 16:18:11,471 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-23 16:18:11,777 [INFO] 출발역 '광주송정' 선택됨
+2025-12-23 16:18:11,841 [INFO] 도착역 '수서' 선택됨
+2025-12-23 16:18:11,949 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-23 16:18:12,069 [INFO] 출발시각 옵션 '14시 이후' 선택됨
+2025-12-23 16:18:12,200 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-23 16:18:14,207 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-23 16:18:15,517 [INFO] 예약 없음. 6s 후 재조회
+2025-12-23 16:18:23,037 [INFO] 예약 없음. 8s 후 재조회
+2025-12-23 16:18:32,440 [INFO] 예약 없음. 12s 후 재조회
+2025-12-23 16:18:45,701 [INFO] 예약 없음. 7s 후 재조회
+2025-12-23 16:18:53,919 [INFO] 예약 없음. 11s 후 재조회

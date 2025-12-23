@@ -48,7 +48,7 @@ target_date = config['target_date']
 start_station = config['start_station']
 end_station = config['end_station']
 kakao_birth_date = config['kakao_birth_date']
-refresh_time = 10
+refresh_time = config["refresh_time"]
 ###
 try:
     # Open target website
@@ -186,15 +186,20 @@ try:
             print(f"[{now_str()}] {e}")    
             # print(f"예약 가능한 항목이 없습니다. {refresh_time}초 후 새로고침합니다.")
             # time.sleep(refresh_time)
-            wait = WebDriverWait(driver, 10)
+            try:
+                wait = WebDriverWait(driver, 10)
 
-            # 1. 버튼이 보이도록 스크롤 (화면 "아래쪽"에 위치하게)
-            search_top_input = wait.until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "input.inquery_btn"))
-            )
+                # 1. 버튼이 보이도록 스크롤 (화면 "아래쪽"에 위치하게)
+                search_top_input = wait.until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "input.inquery_btn"))
+                )
 
-            # 요소를 화면 하단 쪽에 맞춤 (true는 상단, false는 하단)
-            driver.execute_script("arguments[0].scrollIntoView(false);", search_top_input)
+                # 요소를 화면 하단 쪽에 맞춤 (true는 상단, false는 하단)
+                driver.execute_script("arguments[0].scrollIntoView(false);", search_top_input)
+            except Exception as e:
+                print(f"[{now_str()}] {e}")
+                
+                
 
             # 필요하면 조금만 더 올리거나 내릴 수도 있음
             # driver.execute_script("window.scrollBy(0, -50);")  # 위로 50px
@@ -512,7 +517,7 @@ try:
     time.sleep(1)
     try:
         # 결제하기 버튼이 나타날 때까지 대기 후 클릭
-        pay_btn = WebDriverWait(driver, wait_sec).until(
+        pay_btn = WebDriverWait(driver, 1000).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "#list-form > fieldset > div.tal_c > a.btn_large.btn_blue_dark.val_m.mgr10 > span"))
         )
         print(f"[{now_str()}] 결제하기 버튼 텍스트: {pay_btn.text}")
@@ -526,15 +531,15 @@ try:
 
     try:
         # Tab container와 chTab2 탭 모두 명시적으로 대기
-        tab_ul = WebDriverWait(driver, wait_sec).until(
+        tab_ul = WebDriverWait(driver, 1100).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "#select-form > fieldset > div.tab.tab4.subtab > ul"))
         )
         print(f"[{now_str()}] Tab UL found.")
-        ch_tab2 = WebDriverWait(tab_ul, wait_sec).until(
+        ch_tab2 = WebDriverWait(tab_ul, 1100).until(
             lambda ul: ul.find_element(By.CSS_SELECTOR, "#chTab2")
         )
         print(f"[{now_str()}] chTab2 element found.")
-        WebDriverWait(tab_ul, wait_sec).until(
+        WebDriverWait(tab_ul, 1100).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "#chTab2"))
         )
         ch_tab2.click()
@@ -544,17 +549,17 @@ try:
 
     try:
         # Pay section table tr > td > div container 대기
-        container_div = WebDriverWait(driver, wait_sec).until(
+        container_div = WebDriverWait(driver, 1100).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "#settle_payco > div.tbl_wrap.tbl3 > table > tbody > tr > td > div"))
         )
         # radio button 명시적으로 대기
-        kakao_radio = WebDriverWait(container_div, wait_sec).until(
+        kakao_radio = WebDriverWait(container_div, 1100).until(
             lambda d: d.find_element(By.ID, "kakaoPay")
         )
         driver.execute_script("arguments[0].scrollIntoView(true);", kakao_radio)
         if not kakao_radio.is_selected():
             try:
-                WebDriverWait(driver, wait_sec).until(EC.element_to_be_clickable((By.ID, "kakaoPay")))
+                WebDriverWait(driver, 1100).until(EC.element_to_be_clickable((By.ID, "kakaoPay")))
                 kakao_radio.click()
             except Exception as click_e:
                 print(f"[{now_str()}] 카카오페이 라디오버튼 클릭이 직접적으로 인터셉트되었습니다. 자바스크립트로 클릭을 시도합니다.")
@@ -565,7 +570,7 @@ try:
 
     try:
         # requestIssue2 버튼이 나타나고 클릭 가능할 때까지 대기 후 클릭
-        request_issue2_btn = WebDriverWait(driver, wait_sec).until(
+        request_issue2_btn = WebDriverWait(driver, 1100).until(
             EC.element_to_be_clickable((By.ID, "requestIssue2"))
         )
         request_issue2_btn.click()
@@ -574,7 +579,7 @@ try:
         print(f"[{now_str()}] 'requestIssue2' 버튼 클릭에 실패했습니다:", e)
     # 카카오 페이 창 전환
     try:
-        WebDriverWait(driver, wait_sec).until(lambda d: len(d.window_handles) > 1)
+        WebDriverWait(driver, 1100).until(lambda d: len(d.window_handles) > 1)
         window_handles = driver.window_handles
         driver.switch_to.window(window_handles[1])
     except Exception as e:
@@ -584,7 +589,7 @@ try:
     # 카톡결제 탭 클릭
     try:
         # Wait until the 카톡결제 tab is present
-        WebDriverWait(driver, wait_sec).until(
+        WebDriverWait(driver, 1100).until(
             EC.presence_of_element_located((By.ID, "카톡결제"))
         )
         katalk_tab = driver.find_element(By.ID, "카톡결제")
@@ -594,7 +599,7 @@ try:
     except Exception as e:
         print(f"[{now_str()}] 카톡결제 탭 클릭 실패:", e)
     # 휴대폰번호 입력
-    WebDriverWait(driver, wait_sec).until(
+    WebDriverWait(driver, 1100).until(
         EC.presence_of_element_located((By.ID, "phoneNumber"))
     )
     phone_input = driver.find_element(By.ID, "phoneNumber")
@@ -603,7 +608,7 @@ try:
     print(f"[{now_str()}] 휴대폰번호를 입력했습니다.")
 
     # 생년월일(6자리) 입력
-    WebDriverWait(driver, wait_sec).until(
+    WebDriverWait(driver, 1100).until(
         EC.presence_of_element_located((By.ID, "dateOfBirth"))
     )
     dob_input = driver.find_element(By.ID, "dateOfBirth")
@@ -612,7 +617,7 @@ try:
     print(f"[{now_str()}] 생년월일(6자리)를 입력했습니다.")
     # "결제요청" 버튼 클릭 (class: kp-m-button large primary _request-button_1y3vn_18)
     try:
-        WebDriverWait(driver, wait_sec).until(
+        WebDriverWait(driver, 1100).until(
             EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'kp-m-button') and contains(@class, 'primary') and .//p[text()='결제요청']]"))
         )
         kp_pay_btn = driver.find_element(

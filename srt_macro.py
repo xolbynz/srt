@@ -7,6 +7,13 @@ import logging
 import tkinter as tk
 from tkinter import messagebox
 
+# 추가: tkcalendar 임포트 시도
+try:
+    from tkcalendar import DateEntry
+    has_calendar = True
+except ImportError:
+    has_calendar = False
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -81,17 +88,18 @@ class SRTMacroApp:
         self.start_station_var = tk.StringVar()
         self.end_station_var = tk.StringVar()
         self.birth_var = tk.StringVar()
+        self.refresh_time_var = tk.StringVar()  
 
         # Layout
         row = 0
-        tk.Label(self.window, text="오타 나면 안 됨고 주의해서 입력해주세요. 예) 를 잘 봐주세요").grid(row=row, column=0, columnspan=2, sticky="w"); row += 1
+        tk.Label(self.window, text="오타 나면 안 됨 주의해서 입력해주세요. 예시를 잘 봐주세요").grid(row=row, column=0, columnspan=2, sticky="w"); row += 1
         tk.Label(self.window, text="ID:").grid(row=row, column=0, sticky="w")
         tk.Entry(self.window, textvariable=self.id_var).grid(row=row, column=1); row += 1
 
         tk.Label(self.window, text="PW:").grid(row=row, column=0, sticky="w")
         tk.Entry(self.window, textvariable=self.pw_var, show="*").grid(row=row, column=1); row += 1
 
-        tk.Label(self.window, text="휴대폰번호(01012345678):").grid(row=row, column=0, sticky="w")
+        tk.Label(self.window, text="카카오톡 휴대폰번호(01012345678):").grid(row=row, column=0, sticky="w")
         tk.Entry(self.window, textvariable=self.phone_var).grid(row=row, column=1); row += 1
 
         tk.Label(self.window, text="출발 최소 시간 (예: 15:00):").grid(row=row, column=0, sticky="w")
@@ -100,17 +108,76 @@ class SRTMacroApp:
         tk.Label(self.window, text="출발 최대 시간 (예: 18:30):").grid(row=row, column=0, sticky="w")
         tk.Entry(self.window, textvariable=self.max_time_var).grid(row=row, column=1); row += 1
 
+        # 달력 위젯/텍스트박스 구분
         tk.Label(self.window, text="출발일자 (예: 2025.12.26):").grid(row=row, column=0, sticky="w")
-        tk.Entry(self.window, textvariable=self.target_date_var).grid(row=row, column=1); row += 1
+        if has_calendar:
+            # tkcalendar.DateEntry로 선택 (출력 형식: yyyy.mm.dd)
+            # locale/format/code fallback: 
+            self.target_date_cal = DateEntry(
+                self.window,
+                textvariable=self.target_date_var,
+                date_pattern='yyyy.mm.dd',   # 형식 지정
+                # showweeknumbers=False
+            )
+            self.target_date_cal.grid(row=row, column=1)
+            # 오늘 날짜로 기본 지정
+            self.target_date_var.set(time.strftime("%Y.%m.%d"))
+        else:
+            tk.Entry(self.window, textvariable=self.target_date_var).grid(row=row, column=1)
+        row += 1
 
-        tk.Label(self.window, text="출발역(ex 광주송정):").grid(row=row, column=0, sticky="w")
-        tk.Entry(self.window, textvariable=self.start_station_var).grid(row=row, column=1); row += 1
+        station_list = [
+            "수서",
+            "동탄",
+            "평택지제",
+            "경주",
+            "곡성",
+            "공주",
+            "광주송정",
+            "구례구",
+            "김천구미",
+            "나주",
+            "남원",
+            "대전",
+            "동대구",
+            "마산",
+            "목포",
+            "밀양",
+            "부산",
+            "서대구",
+            "순천",
+            "여수EXPO",
+            "여천",
+            "오송",
+            "울산(통도사)",
+            "익산",
+            "전주",
+            "정읍",
+            "진영",
+            "진주",
+            "창원",
+            "창원중앙",
+            "천안아산",
+            "포항",
+        ]
 
-        tk.Label(self.window, text="도착역(ex 수서):").grid(row=row, column=0, sticky="w")
-        tk.Entry(self.window, textvariable=self.end_station_var).grid(row=row, column=1); row += 1
+        tk.Label(self.window, text="출발역:").grid(row=row, column=0, sticky="w")
+        self.start_station_var.set(station_list[0])
+        start_station_menu = tk.OptionMenu(self.window, self.start_station_var, *station_list)
+        start_station_menu.grid(row=row, column=1, sticky="ew")
+        row += 1
 
-        tk.Label(self.window, text="카카오 생년월일(941122):").grid(row=row, column=0, sticky="w")
+        tk.Label(self.window, text="도착역:").grid(row=row, column=0, sticky="w")
+        self.end_station_var.set(station_list[0])
+        end_station_menu = tk.OptionMenu(self.window, self.end_station_var, *station_list)
+        end_station_menu.grid(row=row, column=1, sticky="ew")
+        row += 1
+
+        tk.Label(self.window, text="카카오톡 생년월일(941122):").grid(row=row, column=0, sticky="w")
         tk.Entry(self.window, textvariable=self.birth_var).grid(row=row, column=1); row += 1
+
+        tk.Label(self.window, text="새로고침 시간(초)(예: 10):").grid(row=row, column=0, sticky="w")
+        tk.Entry(self.window, textvariable=self.refresh_time_var).grid(row=row, column=1); row += 1
 
         tk.Button(
             self.window,
@@ -131,6 +198,7 @@ class SRTMacroApp:
             self.start_station_var.get().strip(),
             self.end_station_var.get().strip(),
             self.birth_var.get().strip(),
+            self.refresh_time_var.get().strip(),
         ]
         return all(fields)
 
@@ -151,12 +219,26 @@ class SRTMacroApp:
         kakao_phone_number = self.phone_var.get().strip()
         min_time = self.min_time_var.get().strip()
         max_time = self.max_time_var.get().strip()
-        target_date = self.target_date_var.get().strip()
+        # ----- 날짜 포맷 맞추기 -----
+        target_date_input = self.target_date_var.get().strip()
+        # DateEntry의 value가 YYYY.MM.DD 또는 YYYY-MM-DD 등 입력될 수 있음
+        # YYYY.MM.DD 형식만 나오게 보정
+        import re
+        m = re.match(r"^(\d{4})[^0-9]?(\d{1,2})[^0-9]?(\d{1,2})$", target_date_input.replace(" ", ""))
+        if m:
+            target_date = f"{int(m.group(1)):04d}.{int(m.group(2)):02d}.{int(m.group(3)):02d}"
+        else:
+            # fallback, 그대로 사용
+            target_date = target_date_input
+        # --------------------------
         start_station = self.start_station_var.get().strip()
         end_station = self.end_station_var.get().strip()
         kakao_birth_date = self.birth_var.get().strip()
 
-        refresh_time = 10  # 랜덤 리프레시 기준
+        refresh_time = int(self.refresh_time_var.get().strip())
+        if refresh_time <= 0:
+            messagebox.showerror("입력오류", "새로고침 시간은 0보다 큰 숫자여야 합니다")
+            return
 
         chrome_options = Options()
         chrome_options.add_argument("--disable-blink-features=AutomationControlled")
@@ -400,6 +482,7 @@ class SRTMacroApp:
                     break
 
                 # 예약 실패 시 랜덤 대기 후 재조회
+
                 random_refresh_time = random.randint(int(refresh_time / 2), int(refresh_time / 2 + refresh_time))
                 logging.info(f"예약 없음. {random_refresh_time}s 후 재조회")
                 time.sleep(random_refresh_time)
