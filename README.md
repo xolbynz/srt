@@ -27,7 +27,7 @@ refresh_time: 120
 ## 빌드해서 해볼래?
 ### 창문
 ```
-pyinstaller --onefile --noconsole --name SRT_Macro srt_macro.py
+pyinstaller --onefile  --name SRT_Macro srt_macro.py
 ```
 ### 맥도날드
 ```

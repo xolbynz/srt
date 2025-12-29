@@ -299,7 +299,7 @@ try:
         if 예약_대기성공==1:
             try:
                 # "예" 라디오 버튼 찾기 (id="smsY")
-                sms_yes_radio = driver.find_element(By.ID, "smsY")
+                sms_yes_radio = wait.until(lambda d: d.find_element(By.ID, "smsY"))
                 if not sms_yes_radio.is_selected():
                     driver.execute_script("arguments[0].scrollIntoView(true);", sms_yes_radio)
                     try:
@@ -393,7 +393,10 @@ try:
                     print(f"[{now_str()}] 출발시각 옵션 '{closest_option.text}' 선택됨")
                 else:
                     print(f"[{now_str()}] 출발시각 옵션을 찾을 수 없습니다.")
-                simple_search_span = driver.find_element(By.XPATH, "//span[text()='간편조회하기']")
+                # driver.maximize_window()
+                simple_search_span = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.XPATH, '//*[@id="search-form"]/fieldset/div/div/button[2]'))
+                )
                 simple_search_span.click()
                 print(f"[{now_str()}] '간편조회하기' 버튼 클릭 완료")
 

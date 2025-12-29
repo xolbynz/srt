@@ -3791,3 +3791,2337 @@ Symbols not available. Dumping unresolved backtrace:
 2025-12-23 16:18:32,440 [INFO] 예약 없음. 12s 후 재조회
 2025-12-23 16:18:45,701 [INFO] 예약 없음. 7s 후 재조회
 2025-12-23 16:18:53,919 [INFO] 예약 없음. 11s 후 재조회
+2025-12-23 16:19:30,688 [INFO] === SRT Macro Started ===
+2025-12-23 16:19:30,688 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 16:19:30,688 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 16:20:02,275 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-23 16:20:08,035 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-23 16:20:08,428 [INFO] 출발역 '광주송정' 선택됨
+2025-12-23 16:20:08,595 [INFO] 도착역 '수서' 선택됨
+2025-12-23 16:20:08,794 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-23 16:20:09,025 [INFO] 출발시각 옵션 '14시 이후' 선택됨
+2025-12-23 16:20:09,236 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-23 16:20:11,259 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-23 16:20:12,674 [INFO] 예약 없음. 5s 후 재조회
+2025-12-23 16:20:19,183 [INFO] 예약 없음. 7s 후 재조회
+2025-12-23 16:20:27,518 [INFO] 예약 없음. 6s 후 재조회
+2025-12-23 16:20:34,892 [INFO] 예약 없음. 11s 후 재조회
+2025-12-23 16:20:47,232 [INFO] 예약 없음. 10s 후 재조회
+2025-12-23 16:20:58,662 [INFO] 예약 없음. 11s 후 재조회
+2025-12-23 16:21:10,996 [INFO] 예약 없음. 13s 후 재조회
+2025-12-23 16:21:25,545 [INFO] 예약 없음. 15s 후 재조회
+2025-12-23 16:21:41,952 [INFO] 예약 없음. 5s 후 재조회
+2025-12-23 16:21:48,418 [INFO] 예약 없음. 11s 후 재조회
+2025-12-23 16:22:00,855 [INFO] 예약 없음. 9s 후 재조회
+2025-12-23 16:22:09,860 [INFO] 재조회 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:10,861 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:10,862 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:11,864 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:11,866 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:12,869 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:12,870 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:13,874 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:13,878 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:14,880 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:14,881 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:15,883 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:15,883 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:16,886 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:16,888 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525091b1
+	0x7ff7525b97e6
+	0x7ff7525da5c2
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:22:27,294 [INFO] === SRT Macro Started ===
+2025-12-23 16:22:27,295 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-23 16:22:27,295 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-23 16:23:13,949 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-23 16:23:19,878 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-23 16:23:20,167 [INFO] 출발역 '광주송정' 선택됨
+2025-12-23 16:23:20,312 [INFO] 도착역 '수서' 선택됨
+2025-12-23 16:23:20,442 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-23 16:23:20,677 [INFO] 출발시각 옵션 '14시 이후' 선택됨
+2025-12-23 16:23:20,793 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-23 16:23:22,834 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-23 16:23:24,485 [INFO] 예약 없음. 14s 후 재조회
+2025-12-23 16:23:39,908 [INFO] 예약 없음. 14s 후 재조회
+2025-12-23 16:23:55,235 [INFO] 예약 없음. 9s 후 재조회
+2025-12-23 16:24:05,615 [INFO] 예약 없음. 12s 후 재조회
+2025-12-23 16:24:19,020 [INFO] 예약 없음. 5s 후 재조회
+2025-12-23 16:24:25,513 [INFO] 예약 없음. 10s 후 재조회
+2025-12-23 16:24:36,990 [INFO] 예약 없음. 7s 후 재조회
+2025-12-23 16:24:45,425 [INFO] 예약 없음. 11s 후 재조회
+2025-12-23 16:24:57,833 [INFO] 예약 없음. 15s 후 재조회
+2025-12-23 16:25:14,258 [INFO] 예약 없음. 5s 후 재조회
+2025-12-23 16:25:20,674 [INFO] 예약 없음. 9s 후 재조회
+2025-12-23 16:25:31,144 [INFO] 예약 없음. 11s 후 재조회
+2025-12-23 16:25:43,466 [INFO] 신청하기 클릭 성공
+2025-12-23 16:25:43,496 [INFO] 예약 없음. 14s 후 재조회
+2025-12-23 16:26:07,917 [INFO] 재조회 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:26:19,299 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:26:29,660 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:26:40,974 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:26:51,273 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:27:02,612 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:27:12,896 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:27:24,226 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:27:34,552 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:27:45,854 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:27:56,234 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:28:07,602 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:28:17,988 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:28:29,322 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:28:39,663 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:28:50,993 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:29:01,328 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:29:12,616 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:29:22,925 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:29:34,290 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:29:44,590 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:29:55,895 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:30:06,182 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:30:17,509 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:30:27,799 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:30:39,096 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:30:49,432 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:31:00,623 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff752589a33
+	0x7ff752589d3c
+	0x7ff7525ddf67
+	0x7ff7525dac97
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:31:04,729 [INFO] 재조회 클릭 실패: Alert Text: 예약대기 서비스를 신청합니다.
+
+원활한 좌석 안내를 위하여 
+SMS(카카오 알림톡 등)수신에 동의하여 주시기 바랍니다. 
+동의하지 않을 시 좌석배정안내가 어려울 수 있습니다.
+SMS 수신에 동의하십니까?
+Message: unexpected alert open: {Alert text : 예약대기 서비스를 신청합니다.
+
+원활한 좌석 안내를 위하여 
+SMS(카카오 알림톡 등)수신에 동의하여 주시기 바랍니다. 
+동의하지 않을 시 좌석배정안내가 어려울 수 있습니다.
+SMS 수신에 동의하십니까?}
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525db6da
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:31:07,777 [INFO] 결과 테이블 로딩 예외: Alert Text: 예약대기 서비스를 신청합니다.
+
+원활한 좌석 안내를 위하여 
+SMS(카카오 알림톡 등)수신에 동의하여 주시기 바랍니다. 
+동의하지 않을 시 좌석배정안내가 어려울 수 있습니다.
+SMS 수신에 동의하십니까?
+Message: unexpected alert open: {Alert text : 예약대기 서비스를 신청합니다.
+
+원활한 좌석 안내를 위하여 
+SMS(카카오 알림톡 등)수신에 동의하여 주시기 바랍니다. 
+동의하지 않을 시 좌석배정안내가 어려울 수 있습니다.
+SMS 수신에 동의하십니까?}
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525db6da
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-23 16:31:12,348 [INFO] 재조회 클릭 실패: Alert Text: 예약대기 서비스를 신청합니다.
+
+원활한 좌석 안내를 위하여 
+SMS(카카오 알림톡 등)수신에 동의하여 주시기 바랍니다. 
+동의하지 않을 시 좌석배정안내가 어려울 수 있습니다.
+SMS 수신에 동의하십니까?
+Message: unexpected alert open: {Alert text : 예약대기 서비스를 신청합니다.
+
+원활한 좌석 안내를 위하여 
+SMS(카카오 알림톡 등)수신에 동의하여 주시기 바랍니다. 
+동의하지 않을 시 좌석배정안내가 어려울 수 있습니다.
+SMS 수신에 동의하십니까?}
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7527588e5
+	0x7ff752758940
+	0x7ff75253165d
+	0x7ff7525db6da
+	0x7ff75257ac29
+	0x7ff75257ba93
+	0x7ff752a70640
+	0x7ff752a6af80
+	0x7ff752a896e6
+	0x7ff752775de4
+	0x7ff75277ed8c
+	0x7ff752762004
+	0x7ff7527621b5
+	0x7ff752747ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 08:50:59,355 [INFO] === SRT Macro Started ===
+2025-12-24 08:50:59,355 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-24 08:50:59,356 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-24 08:52:14,765 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-24 08:52:21,632 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-24 08:52:21,988 [INFO] 출발역 '광주송정' 선택됨
+2025-12-24 08:52:22,191 [INFO] 도착역 '수서' 선택됨
+2025-12-24 08:52:22,244 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-24 08:52:22,298 [INFO] 출발시각 옵션 '14시 이후' 선택됨
+2025-12-24 08:52:22,371 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-24 08:52:24,395 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-24 08:52:25,555 [INFO] 신청하기 클릭 성공
+2025-12-24 08:52:26,141 [INFO] 신청 완료 처리 후 재조회 페이지로 이동
+2025-12-24 08:52:37,537 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 08:53:00,662 [INFO] === SRT Macro Started ===
+2025-12-24 08:53:00,662 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-24 08:53:00,663 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-24 09:37:31,581 [INFO] === SRT Macro Started ===
+2025-12-24 09:37:31,582 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-24 09:37:31,582 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-24 09:38:06,669 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-24 09:38:13,399 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-24 09:38:13,472 [INFO] 출발역 '광주송정' 선택됨
+2025-12-24 09:38:13,496 [INFO] 도착역 '수서' 선택됨
+2025-12-24 09:38:13,541 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-24 09:38:13,590 [INFO] 출발시각 옵션 '14시 이후' 선택됨
+2025-12-24 09:38:13,665 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-24 09:38:15,682 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-24 09:38:16,980 [INFO] 신청하기 클릭 성공
+2025-12-24 09:38:17,552 [INFO] 신청 완료 처리 후 재조회 페이지로 이동
+2025-12-24 09:38:28,827 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 09:38:39,087 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 09:38:40,600 [INFO] 결과 테이블 로딩 예외: Alert Text: 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?
+Message: unexpected alert open: {Alert text : 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?}
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff70392b6da
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 09:38:43,188 [INFO] 재조회 클릭 실패: Alert Text: 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?
+Message: unexpected alert open: {Alert text : 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?}
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff70392b6da
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 09:38:44,713 [INFO] 결과 테이블 로딩 예외: Alert Text: 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?
+Message: unexpected alert open: {Alert text : 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?}
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff70392b6da
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:28:49,692 [INFO] === SRT Macro Started ===
+2025-12-24 12:28:49,693 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-24 12:28:49,693 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-24 12:29:35,446 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-24 12:29:41,271 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-24 12:29:41,310 [INFO] 출발역 '수서' 선택됨
+2025-12-24 12:29:41,350 [INFO] 도착역 '광주송정' 선택됨
+2025-12-24 12:29:41,398 [INFO] 출발일자 2025.12.28로 변경 완료
+2025-12-24 12:29:41,447 [INFO] 출발시각 옵션 '18시 이후' 선택됨
+2025-12-24 12:29:41,518 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-24 12:29:43,535 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-24 12:29:44,664 [INFO] 예약 없음. 7s 후 재조회
+2025-12-24 12:29:52,955 [INFO] 예약 없음. 10s 후 재조회
+2025-12-24 12:30:04,145 [INFO] 예약 없음. 14s 후 재조회
+2025-12-24 12:30:19,582 [INFO] 신청하기 클릭 성공
+2025-12-24 12:30:19,978 [INFO] 신청 완료 처리 후 재조회 페이지로 이동
+2025-12-24 12:30:31,333 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:30:41,588 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:30:53,012 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:31:03,339 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:31:14,597 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:31:24,862 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:31:36,081 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:31:46,375 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:31:57,695 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:32:07,986 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:32:19,351 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:32:29,641 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:32:40,936 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:32:51,270 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:02,553 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:12,860 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:24,189 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:34,538 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:45,761 [INFO] 결과 테이블 로딩 예외: Alert Text: 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?
+Message: unexpected alert open: {Alert text : 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?}
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff70392b6da
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:47,298 [INFO] 재조회 클릭 실패: Alert Text: 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?
+Message: unexpected alert open: {Alert text : 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?}
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff70392b6da
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:50,350 [INFO] 결과 테이블 로딩 예외: Alert Text: 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?
+Message: unexpected alert open: {Alert text : 취소가 완료되면 처음부터 다시 예약하셔야 합니다.
+
+선택하신 승차권 예약내역을 취소하시겠습니까?}
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff70392b6da
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:53,937 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:54,940 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:54,943 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:55,945 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:55,947 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:56,949 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:56,950 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:57,954 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:57,956 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:58,959 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:58,961 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:59,964 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:33:59,965 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:34:00,968 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:34:00,969 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:34:01,973 [INFO] 결과 테이블 로딩 예외: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:34:01,976 [INFO] 재조회 클릭 실패: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038591b1
+	0x7ff7039097e6
+	0x7ff70392a5c2
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:34:42,324 [INFO] === SRT Macro Started ===
+2025-12-24 12:34:42,324 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-24 12:34:42,324 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-24 12:35:07,755 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-24 12:35:13,581 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-24 12:35:13,674 [INFO] 출발역 '광주송정' 선택됨
+2025-12-24 12:35:13,723 [INFO] 도착역 '수서' 선택됨
+2025-12-24 12:35:13,794 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-24 12:35:13,893 [INFO] 출발시각 옵션 '14시 이후' 선택됨
+2025-12-24 12:35:13,993 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-24 12:35:16,016 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-24 12:35:17,245 [INFO] 예약 없음. 13s 후 재조회
+2025-12-24 12:35:40,341 [INFO] === SRT Macro Started ===
+2025-12-24 12:35:40,341 [INFO] App dir: C:\Users\sbkwon\works\srt\dist
+2025-12-24 12:35:40,342 [INFO] Log path: C:\Users\sbkwon\works\srt\dist\srt_macro.log
+2025-12-24 12:36:11,063 [INFO] chromedriver not found next to exe. Trying Selenium Manager...
+2025-12-24 12:36:16,908 [INFO] 현재 주소값: https://etk.srail.kr/main.do
+2025-12-24 12:36:17,297 [INFO] 출발역 '광주송정' 선택됨
+2025-12-24 12:36:17,486 [INFO] 도착역 '수서' 선택됨
+2025-12-24 12:36:17,735 [INFO] 출발일자 2025.12.26로 변경 완료
+2025-12-24 12:36:18,016 [INFO] 출발시각 옵션 '18시 이후' 선택됨
+2025-12-24 12:36:18,123 [INFO] '간편조회하기' 버튼 클릭 완료
+2025-12-24 12:36:20,141 [INFO] NetFunnel 대기창 없음. 진행
+2025-12-24 12:36:21,484 [INFO] 신청하기 클릭 성공
+2025-12-24 12:36:21,507 [INFO] 예약 없음. 7s 후 재조회
+2025-12-24 12:36:38,799 [INFO] 재조회 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:36:50,069 [INFO] 결과 테이블 로딩 예외: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:37:00,331 [INFO] 재조회 클릭 실패: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff703aa88e5
+	0x7ff703aa8940
+	0x7ff70388165d
+	0x7ff7038d9a33
+	0x7ff7038d9d3c
+	0x7ff70392df67
+	0x7ff70392ac97
+	0x7ff7038cac29
+	0x7ff7038cba93
+	0x7ff703dc0640
+	0x7ff703dbaf80
+	0x7ff703dd96e6
+	0x7ff703ac5de4
+	0x7ff703aced8c
+	0x7ff703ab2004
+	0x7ff703ab21b5
+	0x7ff703a97ee2
+	0x7ffaa209e8d7
+	0x7ffaa312c53c
+
+2025-12-24 12:37:01,437 [INFO] 예약하기 클릭 성공

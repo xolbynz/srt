@@ -75,10 +75,10 @@ class SRTMacroApp:
         setup_logger()
 
         self.window = tk.Tk()
-        self.window.title("고속철도 예약 매크로 (EXE 배포용)")
+        self.window.title("고속철도 예약 매크로 프로그램")
         self.window.protocol("WM_DELETE_WINDOW", self.window.quit)
 
-        # Input vars
+        # 입력값 변수들
         self.id_var = tk.StringVar()
         self.pw_var = tk.StringVar()
         self.phone_var = tk.StringVar()
@@ -90,9 +90,9 @@ class SRTMacroApp:
         self.birth_var = tk.StringVar()
         self.refresh_time_var = tk.StringVar()  
 
-        # Layout
+        # UI 레이아웃
         row = 0
-        tk.Label(self.window, text="오타 나면 안 됨 주의해서 입력해주세요. 예시를 잘 봐주세요").grid(row=row, column=0, columnspan=2, sticky="w"); row += 1
+        tk.Label(self.window, text="※ 입력 오타 없이 정확히 입력하세요. 예시를 참고하세요.").grid(row=row, column=0, columnspan=2, sticky="w"); row += 1
         tk.Label(self.window, text="ID:").grid(row=row, column=0, sticky="w")
         tk.Entry(self.window, textvariable=self.id_var).grid(row=row, column=1); row += 1
 
@@ -108,57 +108,24 @@ class SRTMacroApp:
         tk.Label(self.window, text="출발 최대 시간 (예: 18:30):").grid(row=row, column=0, sticky="w")
         tk.Entry(self.window, textvariable=self.max_time_var).grid(row=row, column=1); row += 1
 
-        # 달력 위젯/텍스트박스 구분
         tk.Label(self.window, text="출발일자 (예: 2025.12.26):").grid(row=row, column=0, sticky="w")
         if has_calendar:
-            # tkcalendar.DateEntry로 선택 (출력 형식: yyyy.mm.dd)
-            # locale/format/code fallback: 
             self.target_date_cal = DateEntry(
                 self.window,
                 textvariable=self.target_date_var,
-                date_pattern='yyyy.mm.dd',   # 형식 지정
-                # showweeknumbers=False
+                date_pattern='yyyy.mm.dd'
             )
             self.target_date_cal.grid(row=row, column=1)
-            # 오늘 날짜로 기본 지정
             self.target_date_var.set(time.strftime("%Y.%m.%d"))
         else:
             tk.Entry(self.window, textvariable=self.target_date_var).grid(row=row, column=1)
         row += 1
 
         station_list = [
-            "수서",
-            "동탄",
-            "평택지제",
-            "경주",
-            "곡성",
-            "공주",
-            "광주송정",
-            "구례구",
-            "김천구미",
-            "나주",
-            "남원",
-            "대전",
-            "동대구",
-            "마산",
-            "목포",
-            "밀양",
-            "부산",
-            "서대구",
-            "순천",
-            "여수EXPO",
-            "여천",
-            "오송",
-            "울산(통도사)",
-            "익산",
-            "전주",
-            "정읍",
-            "진영",
-            "진주",
-            "창원",
-            "창원중앙",
-            "천안아산",
-            "포항",
+            "수서","동탄","평택지제","경주","곡성","공주","광주송정","구례구","김천구미","나주",
+            "남원","대전","동대구","마산","목포","밀양","부산","서대구","순천","여수EXPO",
+            "여천","오송","울산(통도사)","익산","전주","정읍","진영","진주","창원","창원중앙",
+            "천안아산","포항"
         ]
 
         tk.Label(self.window, text="출발역:").grid(row=row, column=0, sticky="w")
@@ -207,63 +174,60 @@ class SRTMacroApp:
             messagebox.showerror("입력오류", "모든 정보를 입력하세요")
             return
 
-        # UI 숨기고 스레드로 실행
         self.window.withdraw()
         t = threading.Thread(target=self.main_bot, daemon=True)
         t.start()
 
     def main_bot(self):
-        # 입력값
         user_id = self.id_var.get().strip()
         password = self.pw_var.get().strip()
         kakao_phone_number = self.phone_var.get().strip()
         min_time = self.min_time_var.get().strip()
         max_time = self.max_time_var.get().strip()
-        # ----- 날짜 포맷 맞추기 -----
+
+        # 날짜 형식 맞추기
         target_date_input = self.target_date_var.get().strip()
-        # DateEntry의 value가 YYYY.MM.DD 또는 YYYY-MM-DD 등 입력될 수 있음
-        # YYYY.MM.DD 형식만 나오게 보정
         import re
         m = re.match(r"^(\d{4})[^0-9]?(\d{1,2})[^0-9]?(\d{1,2})$", target_date_input.replace(" ", ""))
         if m:
             target_date = f"{int(m.group(1)):04d}.{int(m.group(2)):02d}.{int(m.group(3)):02d}"
         else:
-            # fallback, 그대로 사용
             target_date = target_date_input
-        # --------------------------
+
         start_station = self.start_station_var.get().strip()
         end_station = self.end_station_var.get().strip()
         kakao_birth_date = self.birth_var.get().strip()
 
-        refresh_time = int(self.refresh_time_var.get().strip())
+        try:
+            refresh_time = int(self.refresh_time_var.get().strip())
+        except ValueError:
+            messagebox.showerror("입력오류", "새로고침 시간은 숫자여야 합니다.")
+            return
         if refresh_time <= 0:
-            messagebox.showerror("입력오류", "새로고침 시간은 0보다 큰 숫자여야 합니다")
+            messagebox.showerror("입력오류", "새로고침 시간은 0보다 큰 숫자여야 합니다.")
             return
 
         chrome_options = Options()
         chrome_options.add_argument("--disable-blink-features=AutomationControlled")
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
-        # chrome_options.add_argument("--headless=new")  # 필요하면 활성화
 
         driver = None
         try:
             chromedriver_path = find_chromedriver()
-
             if chromedriver_path:
                 logging.info(f"Using chromedriver: {chromedriver_path}")
                 driver = webdriver.Chrome(service=Service(chromedriver_path), options=chrome_options)
             else:
-                # Selenium Manager 시도(환경에 따라 막힐 수 있음)
                 logging.info("chromedriver not found next to exe. Trying Selenium Manager...")
                 driver = webdriver.Chrome(options=chrome_options)
 
-            # 1) 로그인 페이지
+            # 로그인 페이지
             login_url = "https://etk.srail.kr/cmc/01/selectLoginForm.do?pageId=TK0701000000"
             driver.get(login_url)
             time.sleep(1)
 
-            # 2) 로그인
+            # 로그인
             id_input = driver.find_element(By.ID, "srchDvNm01")
             id_input.clear()
             id_input.send_keys(user_id)
@@ -279,11 +243,11 @@ class SRTMacroApp:
                 )
             )
             login_btn.click()
-            time.sleep(1)   
+            time.sleep(1)
             current_url = driver.current_url
             logging.info(f"현재 주소값: {current_url}")
 
-            # 3) 출발/도착역
+            # 출발/도착역
             dpt_station_select = driver.find_element(By.ID, "dptRsStnCd")
             for option in dpt_station_select.find_elements(By.TAG_NAME, "option"):
                 if option.text.strip() == start_station:
@@ -298,14 +262,14 @@ class SRTMacroApp:
                     logging.info(f"도착역 '{end_station}' 선택됨")
                     break
 
-            # 4) 출발일자
+            # 출발일자
             dpt_date_input = driver.find_element(By.NAME, "dptDt")
             driver.execute_script("arguments[0].removeAttribute('readonly')", dpt_date_input)
             dpt_date_input.clear()
             dpt_date_input.send_keys(target_date)
             logging.info(f"출발일자 {target_date}로 변경 완료")
 
-            # 5) 출발시각(최소시간 이하 중 가장 가까운 옵션)
+            # 출발시각(최소시간 이하 중 가장 가까운 옵션)
             dpt_time_select = driver.find_element(By.ID, "dptTm")
             min_h, min_m = map(int, min_time.split(":"))
             min_total_minutes = min_h * 60 + min_m
@@ -337,7 +301,7 @@ class SRTMacroApp:
 
             driver.maximize_window()
 
-            # 6) 간편조회하기
+            # 간편조회하기
             simple_search_btn = WebDriverWait(driver, 10).until(
                 EC.element_to_be_clickable((By.XPATH, '//*[@id="search-form"]/fieldset/div/div/button[2]'))
             )
@@ -345,7 +309,7 @@ class SRTMacroApp:
             logging.info("'간편조회하기' 버튼 클릭 완료")
             time.sleep(2)
 
-            # 7) NetFunnel 대기 체크
+            # NetFunnel 대기 체크
             while True:
                 try:
                     netfunnel_top = driver.find_element(By.CSS_SELECTOR, "#NetFunnel_Skin_Top")
@@ -364,7 +328,7 @@ class SRTMacroApp:
                     logging.info("NetFunnel 대기창 없음. 진행")
                     break
 
-            # 8) 결과 테이블 로딩
+            # 결과 테이블 로딩
             wait = WebDriverWait(driver, 100000)
             tbody_selector = "#result-form > fieldset > div.tbl_wrap.th_thead > table > tbody"
             tbody = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, tbody_selector)))
@@ -380,7 +344,6 @@ class SRTMacroApp:
                     rows = wait10.until(lambda d: tbody.find_elements(By.TAG_NAME, "tr"))
                 except Exception as e:
                     logging.info(f"결과 테이블 로딩 예외: {e}")
-                    # 재조회 클릭 시도
                     try:
                         wait10 = WebDriverWait(driver, 10)
                         inquery = wait10.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.inquery_btn")))
@@ -396,7 +359,6 @@ class SRTMacroApp:
                 reserved = False
 
                 for row in rows:
-                    # 시간 필터 (td4)
                     try:
                         td4_time = row.find_element(By.CSS_SELECTOR, "td:nth-child(4) > em").text.strip()
                         td4_h, td4_m = map(int, td4_time.split(":"))
@@ -413,9 +375,9 @@ class SRTMacroApp:
                     except Exception:
                         pass
 
-                    # 예약하기 (td7)
                     try:
                         td7_span = row.find_element(By.CSS_SELECTOR, "td:nth-child(7) > a > span")
+                        print(f"[{now_str()}] 일반실 {td7_span.text}")
                         if td7_span.text.strip() == "예약하기":
                             td7_span.click()
                             reserved = True
@@ -424,10 +386,10 @@ class SRTMacroApp:
                     except Exception:
                         pass
 
-                    # 신청하기 (td8) - 최초 1회만
                     if reservation_wait_state == 0:
                         try:
                             td8_span = row.find_element(By.CSS_SELECTOR, "td:nth-child(8) > a > span")
+                            print(f"[{now_str()}] 예약대기 {td8_span.text}")
                             if td8_span.text.strip() == "신청하기":
                                 td8_span.click()
                                 reservation_wait_state = 1
@@ -436,7 +398,6 @@ class SRTMacroApp:
                         except Exception:
                             pass
 
-                # 신청하기 후 확인
                 if reservation_wait_state == 1:
                     try:
                         sms_yes = driver.find_element(By.ID, "smsY")
@@ -447,9 +408,11 @@ class SRTMacroApp:
                             except Exception:
                                 driver.execute_script("arguments[0].click();", sms_yes)
 
+                        print(f"[{now_str()}] 문자 발송 여부(예)에 체크했습니다.")
                         alert = WebDriverWait(driver, 5).until(EC.alert_is_present())
                         alert.accept()
                     except Exception:
+                        print(f"[{now_str()}] smsY 라디오버튼을 찾을 수 없습니다:", e)
                         pass
 
                     try:
@@ -481,8 +444,7 @@ class SRTMacroApp:
                 if reserved:
                     break
 
-                # 예약 실패 시 랜덤 대기 후 재조회
-
+                # 예약 실패시 랜덤 대기 후 재조회
                 random_refresh_time = random.randint(int(refresh_time / 2), int(refresh_time / 2 + refresh_time))
                 logging.info(f"예약 없음. {random_refresh_time}s 후 재조회")
                 time.sleep(random_refresh_time)
@@ -510,7 +472,7 @@ class SRTMacroApp:
                 except Exception as e:
                     logging.info(f"재조회 실패: {e}")
 
-            # 9) 결제 파트 (원본 흐름 유지)
+            # 결제 흐름
             time.sleep(1)
             try:
                 pay_btn = WebDriverWait(driver, WAIT_SEC).until(
@@ -596,7 +558,7 @@ class SRTMacroApp:
             except Exception:
                 pass
 
-            messagebox.showinfo("완료", "흐름이 종료되었습니다. 로그(srt_macro.log)를 확인하세요.")
+            messagebox.showinfo("완료", "매크로가 종료되었습니다. 로그(srt_macro.log)를 확인하세요.")
             logging.info("Flow finished.")
 
         except Exception as e:
@@ -609,7 +571,6 @@ class SRTMacroApp:
                 self.window.quit()
             except Exception:
                 pass
-
 
 if __name__ == "__main__":
     app = SRTMacroApp()
