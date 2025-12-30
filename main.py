@@ -12,10 +12,15 @@ import random
 def now_str():
     return time.strftime("%Y-%m-%d %H:%M:%S")
 
+refresh_count = 0
 wait_sec = 1
 # Chrome 옵션을 확인합니다.
 chrome_options = Options()
-chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+# 사람처럼 보이도록 User-Agent를 설정합니다.
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
+# 자동화 탐지 기능을 비활성화
+chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+chrome_options.add_experimental_option("useAutomationExtension", False)
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 # chrome_options.add_argument('--headless=new') # 주석처리 또는 제거하면 브라우저가 화면에 뜹니다.
@@ -49,6 +54,7 @@ start_station = config['start_station']
 end_station = config['end_station']
 kakao_birth_date = config['kakao_birth_date']
 refresh_time = config["refresh_time"]
+refresh_exit_count = config["refresh_exit_count"]
 ###
 try:
     # Open target website
@@ -133,6 +139,88 @@ try:
     simple_search_span.click()
     print(f"[{now_str()}] '간편조회하기' 버튼 클릭 완료")
     time.sleep(2)
+    if False: ## 버그 걸림
+        current_url = driver.current_url
+        driver.get(current_url)
+        # 출발역(input#dptRsStnCdNm) 및 도착역(input#arvRsStnCdNm) 필드를 config 값으로 변경
+        dpt_station_input = driver.find_element(By.ID, "dptRsStnCdNm")
+        driver.execute_script("arguments[0].removeAttribute('readonly')", dpt_station_input)
+        dpt_station_input.clear()
+        dpt_station_input.send_keys(start_station)
+        print(f"[{now_str()}] 출발역을 '{start_station}'로 변경 완료")
+
+        arv_station_input = driver.find_element(By.ID, "arvRsStnCdNm")
+        driver.execute_script("arguments[0].removeAttribute('readonly')", arv_station_input)
+        arv_station_input.clear()
+        arv_station_input.send_keys(end_station)
+        print(f"[{now_str()}] 도착역을 '{end_station}'로 변경 완료")
+        dpt_date_input = driver.find_element(By.NAME, "dptDt")
+        # 출발일자 셀렉트 박스에서 config의 target_date(YYYY.M.DD 포맷)를 YYYYMMDD로 변환 후 value로 일치하는 option을 찾아 선택
+        import re
+        # target_date 예: "2025.12.30" 또는 "2025.1.04"
+        target_date_cleaned = re.sub(r'\D', '', target_date)
+        if len(target_date_cleaned) == 7:  # ex: 2025104 -> 20250104
+            target_date_cleaned = target_date_cleaned[:4] + "0" + target_date_cleaned[4:]
+        elif len(target_date_cleaned) == 6: # ex: 2025114 -> 20250114
+            target_date_cleaned = target_date_cleaned[:4] + "0" + target_date_cleaned[4:5] + "0" + target_date_cleaned[5:]
+        elif len(target_date_cleaned) == 8:
+            pass  # already padded
+        # print(f"target_date_cleaned: {target_date_cleaned}")
+        dpt_date_select = driver.find_element(By.ID, "dptDt")
+        found_date = False
+        for option in dpt_date_select.find_elements(By.TAG_NAME, "option"):
+            val = option.get_attribute("value")
+            if val == target_date_cleaned:
+                option.click()
+                print(f"[{now_str()}] 출발일자 {option.text.strip()} (value={val}) 선택 완료")
+                found_date = True
+                break
+        if not found_date:
+            print(f"[{now_str()}] 경고: 출발일자 value='{target_date_cleaned}' 옵션을 찾지 못했습니다. (target_date={target_date})")
+
+        # '출발시각' 셀렉트 박스에서 min_time에 가장 가까운 시간을 선택
+        dpt_time_select = driver.find_element(By.ID, "dptTm")
+        min_h, min_m = map(int, min_time.split(":"))
+        min_total_minutes = min_h * 60 + min_m
+
+        closest_option = None
+        closest_diff = None
+
+        for option in dpt_time_select.find_elements(By.TAG_NAME, "option"):
+            value = option.get_attribute("value")
+            if len(value) >= 4:
+                try:
+                    opt_h = int(value[:2])
+                    opt_m = int(value[2:4])
+                except Exception:
+                    continue
+                opt_total_minutes = opt_h * 60 + opt_m
+                # min_time보다 크거나 같은 옵션 중 가장 작은 값을 선택
+                if opt_total_minutes >= min_total_minutes:
+                    diff = opt_total_minutes - min_total_minutes
+                    if closest_diff is None or diff < closest_diff:
+                        closest_option = option
+                        closest_diff = diff
+
+        # 만약 min_time과 같거나 큰 옵션이 없다면, 가장 마지막 옵션을 선택
+        if closest_option is None:
+            all_options = dpt_time_select.find_elements(By.TAG_NAME, "option")
+            if all_options:
+                closest_option = all_options[-1]
+
+        if closest_option is not None:
+            closest_option.click()
+            print(f"[{now_str()}] 출발시각 옵션 '{closest_option.text}'(value={closest_option.get_attribute('value')}) 선택됨")
+        else:
+            print(f"[{now_str()}] 출발시각 옵션을 찾을 수 없습니다.")
+
+        # '<span>간편조회하기</span>' 버튼 클릭 로직 (기존 유지)
+        # "<input type='submit' ... class='inquery_btn'>" 버튼 클릭로직으로 수정
+        search_btn = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "input.inquery_btn"))
+        )
+        search_btn.click()
+        print(f"[{now_str()}] '조회하기' 버튼 클릭 완료")
     while True:
         try:
             netfunnel_top = driver.find_element(By.CSS_SELECTOR, "#NetFunnel_Skin_Top")
@@ -158,6 +246,7 @@ try:
                 time.sleep(1)
                 continue
         except Exception:
+            
             print(f"[{now_str()}] NetFunnel 대기창(#NetFunnel_Skin_Top)이 나타나지 않았습니다. 계속 진행합니다.")
             break
 
@@ -420,6 +509,11 @@ try:
         else:
             random_refresh_time = random.randint(int(refresh_time/2), int(refresh_time/2 + refresh_time))
             print(f"[{now_str()}] 예약 가능한 항목이 없습니다. {random_refresh_time}초 후 새로고침합니다.")
+            refresh_count += 1
+            if refresh_count > refresh_exit_count:
+                print(f"[{now_str()}] {refresh_exit_count}번 새로고침 후 예약 가능한 항목이 없습니다. 프로그램을 종료합니다.")
+                exit(1)
+
             time.sleep(random_refresh_time)
             wait = WebDriverWait(driver, 10)
 
