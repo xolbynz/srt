@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementClickInterceptedException
 import random
-
+import pygetwindow as gw
 def now_str():
     return time.strftime("%Y-%m-%d %H:%M:%S")
 
@@ -25,14 +25,23 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 # chrome_options.add_argument('--headless=new') # 주석처리 또는 제거하면 브라우저가 화면에 뜹니다.
 
-# 크롬 창이 안 켜진다면 아래 주석을 참고하세요.
-# 1. headless 옵션이 켜져 있으면 창이 뜨지 않습니다. 위 옵션을 주석처리 하세요.
-# 2. chromedriver가 환경에 설치되어 있는지 확인하세요.
-# 3. 경로 문제가 있다면 chromedriver 경로를 명시적으로 지정하세요.
-
-# chromedriver 경로를 직접 지정하려면 예시:
-# driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options=chrome_options)
 driver = webdriver.Chrome(options=chrome_options)
+
+# # 크롬 창 찾기
+# windows = gw.getWindowsWithTitle('Chrome')
+# if windows:
+#     chrome = windows[0]
+
+#     # Screen 1 좌표로 이동 (예: 1920px 오른쪽)
+#     chrome.moveTo(1920, 0)
+#     chrome.resizeTo(1200, 900)
+
+# 윈도우 최소화
+try:
+    driver.minimize_window()
+    print(f"[{now_str()}] 브라우저를 최소화했습니다.")
+except Exception as e:
+    print(f"[{now_str()}] 브라우저 최소화에 실패했습니다: {e}")
 
 import yaml
 ##  config 만드시옹
@@ -725,6 +734,7 @@ try:
         print(f"[{now_str()}] '결제요청' 버튼을 클릭했습니다.")
     except Exception as e:
         print(f"[{now_str()}] '결제요청' 버튼 클릭에 실패했습니다:", e)
+    time.sleep(10)
 
 
 finally:
