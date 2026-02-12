@@ -138,7 +138,7 @@ try:
 
     if closest_option is not None:
         closest_option.click()
-        print(f"[{now_str()}] 출발시각 옵션 '{closest_option.text}' 선택됨")
+        # print(f"[{now_str()}] 출발시각 옵션 '{closest_option.text}' 선택됨")
     else:
         print(f"[{now_str()}] 출발시각 옵션을 찾을 수 없습니다.")
     driver.maximize_window()
@@ -146,7 +146,7 @@ try:
         EC.element_to_be_clickable((By.XPATH, '//*[@id="search-form"]/fieldset/div/div/button[2]'))
     )
     simple_search_span.click()
-    print(f"[{now_str()}] '간편조회하기' 버튼 클릭 완료")
+    # print(f"[{now_str()}] '간편조회하기' 버튼 클릭 완료")
     time.sleep(2)
     if False: ## 버그 걸림
         current_url = driver.current_url
@@ -323,13 +323,13 @@ try:
             # td[4] div & em
             try:
                 td4_div = row.find_element(By.CSS_SELECTOR, f"td:nth-child(4) > div")
-                print(f"[{now_str()}] Row {index} td4 div: {td4_div.text}")
+                # print(f"[{now_str()}] Row {index} td4 div: {td4_div.text}")
             except Exception as e:
                 print(f"[{now_str()}] Row {index} td4 div not found")
 
             try:
                 td4_em = row.find_element(By.CSS_SELECTOR, f"td:nth-child(4) > em")
-                print(f"[{now_str()}] Row {index} td4 em: {td4_em.text}")
+                # print(f"[{now_str()}] Row {index} td4 em: {td4_em.text}")
                 td4_time = td4_em.text.strip()
                 td4_h, td4_m = map(int, td4_time.split(":"))
                 min_h, min_m = map(int, min_time.split(":"))
@@ -338,10 +338,10 @@ try:
                 min_minutes = min_h * 60 + min_m
                 max_minutes = max_h * 60 + max_m
                 if td4_minutes < min_minutes:
-                    print(f"[{now_str()}] Row {index} td4 em 시간({td4_time})이 최소 시간({min_time}) 미만이므로 건너뜀.")
+                    # print(f"[{now_str()}] Row {index} td4 em 시간({td4_time})이 최소 시간({min_time}) 미만이므로 건너뜀.")
                     continue
                 if td4_minutes > max_minutes:
-                    print(f"[{now_str()}] Row {index} td4 em 시간({td4_time})이 최대 시간({max_time}) 초과이므로 건너뜀.")
+                    # print(f"[{now_str()}] Row {index} td4 em 시간({td4_time})이 최대 시간({max_time}) 초과이므로 건너뜀.")
                     continue
                 
 
@@ -374,7 +374,7 @@ try:
 
             try:
                 td7_span = row.find_element(By.CSS_SELECTOR, f"td:nth-child(7) > a > span")
-                print(f"[{now_str()}] 일반실 {td7_span.text}")
+                # print(f"[{now_str()}] 일반실 {td7_span.text}")
                 if td7_span.text.strip() == "예약하기":
                     td7_span.click()
                     예약_성공 = True
@@ -407,7 +407,7 @@ try:
                         driver.execute_script("arguments[0].click();", sms_yes_radio)
                 print(f"[{now_str()}] 문자 발송 여부(예)에 체크했습니다.")
                 # 2. confirm() 팝업 뜰 때까지 기다렸다가 '확인' 누르기
-                alert = wait.until(EC.alert_is_present())
+                # alert = wait.until(EC.alert_is_present())
                 print(f"[{now_str()}] {alert.text}")  # 필요 없으면 지워도 됨
                 alert.accept()      # ✅ '확인' 버튼에 해당
             except Exception as e:
@@ -456,7 +456,7 @@ try:
                 driver.execute_script("arguments[0].removeAttribute('readonly')", dpt_date_input)
                 dpt_date_input.clear()
                 dpt_date_input.send_keys(target_date)
-                print(f"[{now_str()}] 출발일자 {target_date}로 변경 완료")
+                # print(f"[{now_str()}] 출발일자 {target_date}로 변경 완료")
                 # '<span>간편조회하기</span>'를 클릭합니다.
                 # '출발시각' 셀렉트 박스에서 min_time에 가장 가까운 옵션을 선택합니다.
                 dpt_time_select = driver.find_element(By.ID, "dptTm")
@@ -488,7 +488,7 @@ try:
 
                 if closest_option is not None:
                     closest_option.click()
-                    print(f"[{now_str()}] 출발시각 옵션 '{closest_option.text}' 선택됨")
+                    # print(f"[{now_str()}] 출발시각 옵션 '{closest_option.text}' 선택됨")
                 else:
                     print(f"[{now_str()}] 출발시각 옵션을 찾을 수 없습니다.")
                 # driver.maximize_window()
@@ -496,7 +496,7 @@ try:
                     EC.element_to_be_clickable((By.XPATH, '//*[@id="search-form"]/fieldset/div/div/button[2]'))
                 )
                 simple_search_span.click()
-                print(f"[{now_str()}] '간편조회하기' 버튼 클릭 완료")
+                # print(f"[{now_str()}] '간편조회하기' 버튼 클릭 완료")
 
                 
                 time.sleep(wait_sec)
@@ -517,7 +517,7 @@ try:
 
         else:
             random_refresh_time = random.randint(int(refresh_time/2), int(refresh_time/2 + refresh_time))
-            print(f"[{now_str()}] 예약 가능한 항목이 없습니다. {random_refresh_time}초 후 새로고침합니다.")
+            # print(f"[{now_str()}] 예약 가능한 항목이 없습니다. {random_refresh_time}초 후 새로고침합니다.")
             refresh_count += 1
             if refresh_count > refresh_exit_count:
                 print(f"[{now_str()}] {refresh_exit_count}번 새로고침 후 예약 가능한 항목이 없습니다. 프로그램을 종료합니다.")
